@@ -74,7 +74,7 @@ body {
  
   
   canvas {
-    width: 149.5%;
+    width: 280%;
    
   }
 
@@ -93,7 +93,7 @@ body {
     display: flex;
     align-items: center;
     width: 78%;
-    height: 90%;
+    height: 200%;
     background-color: rgb(0, 0, 0);
     border-radius: 4%;
 
@@ -119,13 +119,13 @@ body {
   /*footer*/
 
   .footer{
-    top: 155%;
+    top: 110%;
  
     position: absolute;
     display: flex;
     align-items: center;
     width: 100%;
-    height: 15%;
+    height: 10%;
     background-color: rgb(18, 18, 18);
 
 
@@ -379,4 +379,27 @@ body {
 .dropdownContact:hover .dropbtnContact {
 
   background-color: #000000;
+}
+
+
+
+
+
+
+.Download:hover {
+  background-color: rgb(78, 8, 118);
+}
+
+.Download {
+  background-color: rgb(97, 12, 149);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute; 
+  top: 75%; 
+  left: 65%; 
+  width: 15%; 
+  height: auto;
 }
